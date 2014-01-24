@@ -10,6 +10,7 @@
 		BFC4E0061890564100897257 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC4E0051890564100897257 /* Foundation.framework */; };
 		BFC4E0091890564100897257 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC4E0081890564100897257 /* main.m */; };
 		BFC4E00D1890564100897257 /* RandomPossesions.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = BFC4E00C1890564100897257 /* RandomPossesions.1 */; };
+		BFC4E015189058B100897257 /* BNRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC4E014189058B100897257 /* BNRItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		BFC4E0081890564100897257 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BFC4E00B1890564100897257 /* RandomPossesions-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RandomPossesions-Prefix.pch"; sourceTree = "<group>"; };
 		BFC4E00C1890564100897257 /* RandomPossesions.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = RandomPossesions.1; sourceTree = "<group>"; };
+		BFC4E013189058B100897257 /* BNRItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BNRItem.h; path = ../BNRItem.h; sourceTree = "<group>"; };
+		BFC4E014189058B100897257 /* BNRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BNRItem.m; path = ../BNRItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,8 @@
 		BFC4E0071890564100897257 /* RandomPossesions */ = {
 			isa = PBXGroup;
 			children = (
+				BFC4E013189058B100897257 /* BNRItem.h */,
+				BFC4E014189058B100897257 /* BNRItem.m */,
 				BFC4E0081890564100897257 /* main.m */,
 				BFC4E00C1890564100897257 /* RandomPossesions.1 */,
 				BFC4E00A1890564100897257 /* Supporting Files */,
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFC4E0091890564100897257 /* main.m in Sources */,
+				BFC4E015189058B100897257 /* BNRItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
